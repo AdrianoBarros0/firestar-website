@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.hotbar{
+    height: 9vh;
+    width: 100vw;
+    background: rgb(34, 34, 34);
+    display: flex;
+    padding: 5px;
+}
+
+.main{
+    height: 91vh;
+    width: 100vw;
+    background: rgb(5, 6, 10);
+    display: flex;
+    justify-content: center;
+}
+
+.hotbar-logo{
+    height: 8vh;
+    justify-content: center;
+    align-items: left;
+}
+
+.burger-bar{
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+}
