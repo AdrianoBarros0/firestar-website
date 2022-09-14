@@ -14,8 +14,31 @@ body * {
     width: 100vw;
     background: rgb(34, 34, 34);
     display: flex;
-    padding: 5px;
+    padding: 15px;
     align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#menu > span {
+    height: 100%;
+    width: 2px;
+    background: #d3d3d3;
+    opacity: 60%;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    align-items: center;
+    
+}
+
+a {
+    color: rgb(240, 240, 239);
+    text-decoration: none;
+    
 }
 
 .main{
@@ -26,32 +49,16 @@ body * {
     justify-content: center;
 }
 
-.hotbar-left{
-    height: 8vh;
-    width: 50vw;
-}
-
 .hotbar-logo{
     height: 8vh;
     display: flex;
-    justify-content: left;
-}
-
-.hotbar-right{
-    height: 8vh;
-    width: 50vw;
-    padding: 10px;
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    justify-content: right;
     
 }
 
 #checkbox-menu{
     position: absolute;
     opacity: 0;
-    float: right;
+    
 }
 
 label{
