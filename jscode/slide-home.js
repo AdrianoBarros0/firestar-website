@@ -8,7 +8,8 @@ class SlideHome {
     activeSlide(index){
         this.active = index;
         this.items = this.slide.querySelectorAll('.slide-items > *');
-        console.log(this.items);
+        this.items[index].classList.add('active');
+        
     }
 }
 
