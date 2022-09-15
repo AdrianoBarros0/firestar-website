@@ -21,7 +21,7 @@ body * {
 }
 
 #menu > span {
-    height: 100%;
+    height: 33px;
     width: 2px;
     background: #d3d3d3;
     opacity: 60%;
@@ -29,15 +29,18 @@ body * {
 
 #menu{
     display: flex;
+    padding: 0px;
     list-style: none;
-    gap: .5rem;
+    gap: 2rem;
     align-items: center;
+    justify-content: center;
     
 }
 
 a {
     color: rgb(240, 240, 239);
     text-decoration: none;
+    padding: 20px;
     
 }
 
