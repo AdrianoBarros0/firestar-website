@@ -75,7 +75,7 @@ label span{
     width: 100%;
     border-radius: 30px;
     background: #ffffff;
-    transition: 0.25s ease-in-out;
+    transition: 0.30s ease-in-out;
     
 }
 
@@ -178,7 +178,7 @@ label span:nth-child(3){
     background: rgba(255, 255, 255, 0.9);
     border-radius: 3px;
     transform: translateX(-100%);
-    animation: thumb 5s forwards linear;
+    animation: thumb 10s forwards linear;
   }
   
   @keyframes thumb {
