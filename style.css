@@ -189,13 +189,18 @@ label span:nth-child(3){
     }
   }
 /* - Parte do slide*/
-
-.discord-widget{
+.part-discord{
     background-color: rgba(255, 255, 255, 0.041);
     width: 100%;
     height: 550px;
     display: flex;
+    justify-items: flex-end;
+}
+
+.discord-widget{
+    display: flex;
     align-items: center;
+    justify-self: flex-start;
     
 }
 
@@ -203,10 +208,20 @@ label span:nth-child(3){
     font-size: 30pt;
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
-    width: 100%px;
+    width: 70%;
     height: auto;
-    justify-content: flex-end;
+    justify-items: flex-end;
     align-items: center;
+}
+
+.descrição-discord > img{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-self: flex-start;
+    justify-content: flex-end;
 }
 
 .discord-button{
